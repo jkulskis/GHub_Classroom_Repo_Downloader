@@ -9,4 +9,4 @@
 2. Dump the usernames into a text file, one username per line (example file given)
 3. Run `download_repos.py` with `python3 download_repos.py`
 4. Follow the prompts to download the repos
-5. If a repo fails to download, visit that student's GitHub account manually (The repos may get messed up, but the majority should work) 
+5. If a repo fails to download, visit that student's GitHub account manually (The repos may get messed up if they changed their username after submission, but the majority should work) 
