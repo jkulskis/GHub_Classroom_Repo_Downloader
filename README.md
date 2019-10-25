@@ -2,7 +2,8 @@
 
 **Requirements**
 - Python3.6
-- Git Python: `pip3 install gitpython`
+- requests: `pip3 install requests`
+- git python: `pip3 install gitpython`
 
 **Instructions**
 1. Go to GitHub classroom and find all of your students' usernames by searching for their emails on an assignment

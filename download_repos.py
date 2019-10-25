@@ -47,6 +47,7 @@ def download_assignments(students, username, password):
 		except Exception as e:
 			print(f"Failed to clone {assignment} repo of student {student}")
 			print(f"Error: {e}")
+			shutil.rmtree(student_path)
 			fail_students.append(student)
 	print(f"\nSuccesfully downloaded {success_count} repos")
 	print(f"Failed to download {len(fail_students)} repos\n")
