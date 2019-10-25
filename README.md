@@ -1,7 +1,7 @@
 # GitHub Classroom Automatic Repo Downloader
 
 **Requirements**
-- Python3
+- Python3.6
 - Git Python: `pip3 install gitpython`
 
 **Instructions**
